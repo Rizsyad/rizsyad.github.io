@@ -36,19 +36,19 @@ const Resume = () => {
         />
       </div>
       {menu === "Pendidikan" && (
-        <ol className="relative border-l border-gray-200">
+        <ol className="relative border-l border-gray-200 mt-12">
           <TimeLine
-            date="2007 - 2013"
+            date="2006 - 2012"
             title="SDN Karang Tengah 10"
             address="Kota Tangerang Selatan, Banten, Indonesia"
           />
           <TimeLine
-            date="2013 - 2016"
+            date="2012 - 2015"
             title="SMPN 14 TangSel"
             address="Kota Tangerang Selatan, Banten, Indonesia"
           />
           <TimeLine
-            date="2017 - 2020"
+            date="2015 - 2018"
             title="SMK Fadilah"
             address="Kota Tangerang Selatan, Banten, Indonesia"
           />
