@@ -60,6 +60,12 @@ const Resume = () => {
           <img src={notfound} alt="Not Found" />
         </div>
       )}
+
+      {menu === "Sertifikat" && (
+        <div className="flex justify-center">
+          <img src={notfound} alt="Not Found" />
+        </div>
+      )}
     </>
   );
 };
