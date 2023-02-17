@@ -27,11 +27,10 @@ const About = () => {
     <>
       <p className="text-[#dce7ff] text-center text-2xl">About Me</p>
       <p className="text-[#b9cfff]">
-        Saya Rizsyad Abiyandra Riadi sangat tertarik dalam berkerja di bidang
-        pengembang website. Disiplin dan mampu berkerja dengan baik dalam tim
-        maupun individu. Memiliki ketelitian dan kemampuan komunikasi yang baik,
-        Senang mempelajari hal baru, dan siap mengerjakan project sesuai
-        perintah.
+        I am Rizsyad Abiyandra Riadi very interested in working in the website
+        developer field. Discipline and able to work well in a team or
+        individually. Have accuracy and good communication skills, enjoy
+        learning new things, and ready to work on projects according to orders.
       </p>
 
       <p className="text-[#dce7ff] text-xl mt-3">Skills</p>

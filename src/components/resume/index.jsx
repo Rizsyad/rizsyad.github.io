@@ -19,19 +19,19 @@ const Resume = () => {
         {/* pendidikan */}
         <MenuResume
           icon={<MdSchool className="mr-2" />}
-          title={menu === "Pendidikan" && "Pendidikan"}
+          title={menu === "Pendidikan" && "Education"}
           onClick={() => changeMenu("Pendidikan")}
         />
         {/* pengalaman */}
         <MenuResume
           icon={<MdOutlineWork className="mr-2" />}
-          title={menu === "Pengalaman" && "Pengalaman"}
+          title={menu === "Pengalaman" && "Experience"}
           onClick={() => changeMenu("Pengalaman")}
         />
         {/* sertifikat */}
         <MenuResume
           icon={<AiFillSafetyCertificate className="mr-2" />}
-          title={menu === "Sertifikat" && "Sertifikat"}
+          title={menu === "Sertifikat" && "Certificate"}
           onClick={() => changeMenu("Sertifikat")}
         />
       </div>
