@@ -4,17 +4,11 @@ import Card from "../utility/Card";
 import Badge from "../utility/Badge";
 import SocialMedia from "../utility/SocialMedia";
 
-import { BsPhoneFill } from "react-icons/bs";
 import { MdEmail, MdLocationPin } from "react-icons/md";
 import { SlCalender } from "react-icons/sl";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 
 const myContact = [
-  {
-    title: "Phone",
-    text: "085816872942",
-    icon: <BsPhoneFill />,
-  },
   {
     title: "Email",
     text: "rizsyad@gmail.com",

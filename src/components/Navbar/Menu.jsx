@@ -1,7 +1,7 @@
 const Menu = ({ icon, title, isActive, onClick }) => {
   return (
     <div
-      class={`w-full ${
+      className={`w-full ${
         isActive
           ? "text-white"
           : "hover:bg-white focus:text-[#494ea1] hover:text-[#494ea1]"
@@ -9,7 +9,7 @@ const Menu = ({ icon, title, isActive, onClick }) => {
       onClick={onClick}
     >
       {icon}
-      <span class="tab block text-xs">{title}</span>
+      <span className="tab block text-xs">{title}</span>
     </div>
   );
 };
