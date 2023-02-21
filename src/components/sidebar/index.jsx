@@ -34,6 +34,7 @@ const Sidebar = () => {
           src={profile}
           alt="Profile"
           className="w-20 h-20 rounded-md md:w-52 md:h-52"
+          loading="lazy"
         />
         <p className="text-[#dce7ff] mt-5 text-md ml-3 md:text-center md:text-lg md:ml-0 md:mt-3">
           Rizsyad A.R

@@ -1,4 +1,4 @@
-const MenuResume = ({ icon, title, onClick }) => {
+const Nav = ({ icon, title, onClick }) => {
   return (
     <div
       className="flex flex-row items-center text-[#b9cfff] cursor-pointer"
@@ -10,4 +10,4 @@ const MenuResume = ({ icon, title, onClick }) => {
   );
 };
 
-export default MenuResume;
+export default Nav;

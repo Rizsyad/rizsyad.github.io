@@ -1,12 +1,12 @@
-import { useState } from "react";
-
-import Sidebar from "../sidebar";
-import Card from "../utility/Card";
+import { lazy, useState } from "react";
 
 import About from "../about";
 import Resume from "../resume";
 import Project from "../project";
-import Navbar from "../Navbar";
+
+const Sidebar = lazy(() => import("../sidebar"));
+const Navbar = lazy(() => import("../Navbar"));
+const Card = lazy(() => import("../utility/Card"));
 
 const Content = () => {
   const [menu, setMenu] = useState("about");

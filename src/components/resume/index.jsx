@@ -1,11 +1,15 @@
 import { useState } from "react";
 
-import MenuResume from "../utility/MenuResume";
 import TimeLine from "../utility/TimeLine";
+import Nav from "../utility/Nav";
 
 import { MdSchool, MdOutlineWork } from "react-icons/md";
 import { AiFillSafetyCertificate } from "react-icons/ai";
+
 import notfound from "../../assets/img/notfound.gif";
+
+// const Nav = lazy(() => import("../utility/Nav"));
+// const TimeLine = lazy(() => import("../utility/TimeLine"));
 
 const Resume = () => {
   const [menu, setMenu] = useState("Pendidikan");
@@ -17,19 +21,19 @@ const Resume = () => {
       <p className="text-[#dce7ff] text-center text-2xl">Resume</p>
       <div className="flex flex-wrap justify-center mt-5">
         {/* pendidikan */}
-        <MenuResume
+        <Nav
           icon={<MdSchool className="mr-2" />}
           title={menu === "Pendidikan" && "Education"}
           onClick={() => changeMenu("Pendidikan")}
         />
         {/* pengalaman */}
-        <MenuResume
+        <Nav
           icon={<MdOutlineWork className="mr-2" />}
           title={menu === "Pengalaman" && "Experience"}
           onClick={() => changeMenu("Pengalaman")}
         />
         {/* sertifikat */}
-        <MenuResume
+        <Nav
           icon={<AiFillSafetyCertificate className="mr-2" />}
           title={menu === "Sertifikat" && "Certificate"}
           onClick={() => changeMenu("Sertifikat")}
