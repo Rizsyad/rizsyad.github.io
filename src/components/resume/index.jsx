@@ -60,9 +60,13 @@ const Resume = () => {
       )}
 
       {menu === "Pengalaman" && (
-        <div className="flex justify-center">
-          <img src={notfound} alt="Not Found" />
-        </div>
+        <ol className="relative border-l border-gray-200 mt-12">
+          <TimeLine
+            date="2023 - Present"
+            title="Web Programmer"
+            address="Universitas Budi Luhur - Jl. Ciledug Raya, RT.10/RW.2, Petukangan Utara, Kec. Pesanggrahan, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12260"
+          />
+        </ol>
       )}
 
       {menu === "Sertifikat" && (
